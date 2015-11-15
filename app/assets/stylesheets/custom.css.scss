@@ -1,0 +1,73 @@
+$navbar-default-bg: #9f9f60;
+$light-grey: #9f9f60;
+$navbar-default-color: $light-grey;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  margin-top: 110px;
+}
+
+#logo {
+  margin: 10px;
+  float: left;
+  font-size:2em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 9px;
+}
+
+.nav-item {
+  margin: 20px 5px 5px 5px;
+  float: right;  
+  width: 120px;
+  color: #282828;
+}
+
+.join-us {
+  padding-top: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+  font-family: Arial, serif;
+}
+
+h1 {
+  font-size: 2.75em;
+  text-align: center;
+  margin: 10px 10px 30px 10px;
+  letter-spacing: 2px;
+  color:#282828;
+  font-weight: bold;
+}
+
+h2 {
+  
+  font-size: 1em;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom:20px;
+  letter-spacing: .5px;
+  color:#282828;
+  font-weight: normal;
+}
+
+.left {
+  text-align: left;
+  letter-spacing: 0.4px;
+}
+
+.footer {
+ margin-top: 30px;
+ border-top: 2px solid #282828;
+  padding: 5px;
+}
