@@ -7,25 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<header class="navbar navbar-fixed-top navbar-default ">
-<div class="container"> 
-<%= link_to "Create3", "#", class:"btn btn-lg btn-danger", id:"logo" %>
-<div class="nav-item">
-  <%= link_to "Login", "#", class:"btn btn-default btn-success" %>
-</div>
-<div class="nav-item">
-  <%= link_to "Register", "#", class:"btn btn-default btn-warning" %>
-</div>
-<div class="nav-item">
-  <%= link_to "Company", "#", class:"btn btn-default btn-info" %>
-</div>
-</header>
+<%= render 'layouts/navigation' %>
 <div class="container">
 <%= yield %>
 </div>
-<div class="footer">
-   <p> &copy; Create3 2015 </p>
-  
-</div>
+<%= render 'layouts/footer' %>
 </body>
 </html>
