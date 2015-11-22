@@ -9,6 +9,17 @@ body {
   margin-top: 110px;
 }
 
+body{
+    color: rgb(255, 255, 255);
+    position: relative;
+    min-height: 350px;
+    background-image:url(Sparkle.jpg);
+    background-position: cover;
+    display: block;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 #logo {
   margin: 10px;
   float: left;
@@ -32,6 +43,7 @@ body {
 
 .center {
   text-align: center;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -57,7 +69,7 @@ h3 {
   text-align: center;
   margin-bottom:20px;
   letter-spacing: .5px;
-  color:#282828;
+  color:#fff;
   font-weight: normal;
 }
 
@@ -71,3 +83,26 @@ h3 {
  border-top: 2px solid #282828;
   padding: 5px;
 }
+
+.ftn-btn {
+position: center;
+border-radius: 5%;
+margin-left: 50%;
+margin-right: 50%;
+}
+
+.row, h2, p {
+text-align: center;  
+
+}
+.row {
+margin-left: 20%;  
+  margin-right: 20%;
+  color: #fff;
+}
+
+.jumbo {
+  
+  color: #282828;
+}
+
